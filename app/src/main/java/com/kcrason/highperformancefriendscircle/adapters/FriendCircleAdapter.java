@@ -227,6 +227,7 @@ public class FriendCircleAdapter extends RecyclerView.Adapter<FriendCircleAdapte
         }
     }
 
+    // 决定了哪种ViewHodler
     @Override
     public int getItemViewType(int position) {
         return mFriendCircleBeans.get(position).getViewType();
@@ -321,7 +322,6 @@ public class FriendCircleAdapter extends RecyclerView.Adapter<FriendCircleAdapte
             nineGridView = itemView.findViewById(R.id.nine_grid_view);
         }
     }
-
 
     static class WordAndUrlViewHolder extends BaseFriendCircleViewHolder {
 

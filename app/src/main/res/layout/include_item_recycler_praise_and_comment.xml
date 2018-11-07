@@ -8,6 +8,7 @@
     android:id="@+id/layout_praise_and_comment"
     android:paddingTop="8dp">
 
+    <!--点赞-->
     <TextView
         android:id="@+id/praise_content"
         android:layout_width="match_parent"
@@ -17,6 +18,7 @@
         android:textColor="#697A9F"
         android:textSize="16sp" />
 
+    <!--分割线-->
     <View
         android:id="@+id/view_line"
         android:layout_width="match_parent"
@@ -25,6 +27,7 @@
         android:layout_marginTop="6dp"
         android:background="@color/base_DCDCDC" />
 
+    <!--评论-->
     <com.kcrason.highperformancefriendscircle.widgets.VerticalCommentWidget
         android:id="@+id/vertical_comment_widget"
         android:layout_width="match_parent"
